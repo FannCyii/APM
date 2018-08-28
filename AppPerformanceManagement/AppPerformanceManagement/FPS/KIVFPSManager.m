@@ -59,20 +59,17 @@
 #pragma mark - Actions
 - (void)displayLinkAction:(CADisplayLink *)aDisplaylink{
     self.refreshCount++;
-//    self.allRefreshDurationTime += aDisplaylink.duration;
     if(self.allRefreshDurationTime == 0){
         self.allRefreshDurationTime = aDisplaylink.timestamp;
+        return;
     }
     
     if (self.allRefreshDurationTime >= 1) {
         self.fps = ceil(self.refreshCount/(aDisplaylink.timestamp - self.allRefreshDurationTime));
-
-        self.fpsLabel.text  = [NSString stringWithFormat:@"%0.2f",self.refreshCount/(aDisplaylink.timestamp - self.allRefreshDurationTime)];
+        self.fpsLabel.text  = [NSString stringWithFormat:@"%@",@(self.fps)];
         self.refreshCount = 0;
         self.allRefreshDurationTime = aDisplaylink.timestamp;
     }
-//    self.fps = ceil(1/aDisplaylink.duration);
-//    NSLog(@"%@",@(self.fps));
 }
 
 - (void)setShowFPSLabel:(BOOL)showFPSLabel{

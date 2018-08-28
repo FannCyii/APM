@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14AC7DEE21358A18001519D2 /* KIVLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AC7DEC21358A18001519D2 /* KIVLog.h */; };
+		14AC7DEF21358A18001519D2 /* KIVLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC7DED21358A18001519D2 /* KIVLog.m */; };
 		14FAE8E721343D3B0035A641 /* AppPerformanceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FAE8DD21343D3A0035A641 /* AppPerformanceManagement.framework */; };
 		14FAE8EC21343D3B0035A641 /* AppPerformanceManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE8EB21343D3B0035A641 /* AppPerformanceManagementTests.m */; };
 		14FAE8EE21343D3B0035A641 /* AppPerformanceManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FAE8E021343D3A0035A641 /* AppPerformanceManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +31,12 @@
 		14FAE94321344B170035A641 /* FPSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE94121344B170035A641 /* FPSTableViewCell.m */; };
 		14FAE94421344B170035A641 /* FPSTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14FAE94221344B170035A641 /* FPSTableViewCell.xib */; };
 		14FAE94721344CFD0035A641 /* longmao2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14FAE94621344CFD0035A641 /* longmao2.jpg */; };
+		14FAE94A213577DD0035A641 /* NSObject+RuntimeExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FAE948213577DD0035A641 /* NSObject+RuntimeExtension.h */; };
+		14FAE94B213577DD0035A641 /* NSObject+RuntimeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE949213577DD0035A641 /* NSObject+RuntimeExtension.m */; };
+		14FAE94E21357D3D0035A641 /* UIViewController+APM_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FAE94C21357D3D0035A641 /* UIViewController+APM_Extension.h */; };
+		14FAE94F21357D3D0035A641 /* UIViewController+APM_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE94D21357D3D0035A641 /* UIViewController+APM_Extension.m */; };
+		14FAE954213581C10035A641 /* APMTimeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FAE952213581C10035A641 /* APMTimeManager.h */; };
+		14FAE955213581C10035A641 /* APMTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE953213581C10035A641 /* APMTimeManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14AC7DEC21358A18001519D2 /* KIVLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIVLog.h; sourceTree = "<group>"; };
+		14AC7DED21358A18001519D2 /* KIVLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIVLog.m; sourceTree = "<group>"; };
+		14AC7DF0213594E6001519D2 /* kivapm_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kivapm_PrefixHeader.pch; sourceTree = "<group>"; };
 		14FAE8DD21343D3A0035A641 /* AppPerformanceManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppPerformanceManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FAE8E021343D3A0035A641 /* AppPerformanceManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppPerformanceManagement.h; sourceTree = "<group>"; };
 		14FAE8E121343D3A0035A641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,6 +101,12 @@
 		14FAE94121344B170035A641 /* FPSTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPSTableViewCell.m; sourceTree = "<group>"; };
 		14FAE94221344B170035A641 /* FPSTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FPSTableViewCell.xib; sourceTree = "<group>"; };
 		14FAE94621344CFD0035A641 /* longmao2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = longmao2.jpg; sourceTree = "<group>"; };
+		14FAE948213577DD0035A641 /* NSObject+RuntimeExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RuntimeExtension.h"; sourceTree = "<group>"; };
+		14FAE949213577DD0035A641 /* NSObject+RuntimeExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RuntimeExtension.m"; sourceTree = "<group>"; };
+		14FAE94C21357D3D0035A641 /* UIViewController+APM_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APM_Extension.h"; sourceTree = "<group>"; };
+		14FAE94D21357D3D0035A641 /* UIViewController+APM_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APM_Extension.m"; sourceTree = "<group>"; };
+		14FAE952213581C10035A641 /* APMTimeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APMTimeManager.h; sourceTree = "<group>"; };
+		14FAE953213581C10035A641 /* APMTimeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APMTimeManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +150,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14AC7DEB213589F6001519D2 /* KIVLog */ = {
+			isa = PBXGroup;
+			children = (
+				14AC7DEC21358A18001519D2 /* KIVLog.h */,
+				14AC7DED21358A18001519D2 /* KIVLog.m */,
+			);
+			path = KIVLog;
+			sourceTree = "<group>";
+		};
 		14FAE8D321343D3A0035A641 = {
 			isa = PBXGroup;
 			children = (
@@ -164,9 +190,13 @@
 				14FAE8E021343D3A0035A641 /* AppPerformanceManagement.h */,
 				14FAE93921344A830035A641 /* APMConfig.h */,
 				14FAE93A21344A830035A641 /* APMConfig.m */,
+				14AC7DEB213589F6001519D2 /* KIVLog */,
+				14FAE95121357D5C0035A641 /* ExeTime */,
+				14FAE95021357D490035A641 /* Runtime Extension */,
 				14FAE934213440350035A641 /* Dashboard */,
 				14FAE92F21343DAF0035A641 /* FPS */,
 				14FAE8E121343D3A0035A641 /* Info.plist */,
+				14AC7DF0213594E6001519D2 /* kivapm_PrefixHeader.pch */,
 			);
 			path = AppPerformanceManagement;
 			sourceTree = "<group>";
@@ -253,6 +283,26 @@
 			path = FPS;
 			sourceTree = "<group>";
 		};
+		14FAE95021357D490035A641 /* Runtime Extension */ = {
+			isa = PBXGroup;
+			children = (
+				14FAE948213577DD0035A641 /* NSObject+RuntimeExtension.h */,
+				14FAE949213577DD0035A641 /* NSObject+RuntimeExtension.m */,
+			);
+			path = "Runtime Extension";
+			sourceTree = "<group>";
+		};
+		14FAE95121357D5C0035A641 /* ExeTime */ = {
+			isa = PBXGroup;
+			children = (
+				14FAE94C21357D3D0035A641 /* UIViewController+APM_Extension.h */,
+				14FAE94D21357D3D0035A641 /* UIViewController+APM_Extension.m */,
+				14FAE952213581C10035A641 /* APMTimeManager.h */,
+				14FAE953213581C10035A641 /* APMTimeManager.m */,
+			);
+			path = ExeTime;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -261,8 +311,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				14FAE9372134405E0035A641 /* APMDashboardView.h in Headers */,
+				14FAE954213581C10035A641 /* APMTimeManager.h in Headers */,
+				14AC7DEE21358A18001519D2 /* KIVLog.h in Headers */,
 				14FAE93B21344A830035A641 /* APMConfig.h in Headers */,
+				14FAE94E21357D3D0035A641 /* UIViewController+APM_Extension.h in Headers */,
 				14FAE8EE21343D3B0035A641 /* AppPerformanceManagement.h in Headers */,
+				14FAE94A213577DD0035A641 /* NSObject+RuntimeExtension.h in Headers */,
 				14FAE9322134402C0035A641 /* KIVFPSManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,7 +513,11 @@
 			files = (
 				14FAE9382134405E0035A641 /* APMDashboardView.m in Sources */,
 				14FAE9332134402C0035A641 /* KIVFPSManager.m in Sources */,
+				14FAE94B213577DD0035A641 /* NSObject+RuntimeExtension.m in Sources */,
+				14FAE94F21357D3D0035A641 /* UIViewController+APM_Extension.m in Sources */,
 				14FAE93C21344A830035A641 /* APMConfig.m in Sources */,
+				14FAE955213581C10035A641 /* APMTimeManager.m in Sources */,
+				14AC7DEF21358A18001519D2 /* KIVLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +723,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = AppPerformanceManagement/kivapm_PrefixHeader.pch;
 				INFOPLIST_FILE = AppPerformanceManagement/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -690,6 +749,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = AppPerformanceManagement/kivapm_PrefixHeader.pch;
 				INFOPLIST_FILE = AppPerformanceManagement/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

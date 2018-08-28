@@ -11,7 +11,5 @@
 @interface KIVFPSManager : NSObject
 + (instancetype)sharedInstence;
 @property(nonatomic, assign, readonly) NSInteger fps;
-
 @property(nonatomic, assign)BOOL showFPSLabel;
-
 @end

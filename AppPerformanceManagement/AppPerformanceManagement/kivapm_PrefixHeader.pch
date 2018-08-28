@@ -1,0 +1,18 @@
+//
+//  kivapm_PrefixHeader.pch
+//  AppPerformanceManagement
+//
+//  Created by cheng on 2018/8/28.
+//  Copyright © 2018年 cheng. All rights reserved.
+//
+
+#ifndef kivapm_PrefixHeader_pch
+#define kivapm_PrefixHeader_pch
+
+#import "KIVLog.h"
+#import "NSObject+RuntimeExtension.h"
+#import "APMTimeManager.h"
+
+#endif /* kivapm_PrefixHeader_pch */
+
+

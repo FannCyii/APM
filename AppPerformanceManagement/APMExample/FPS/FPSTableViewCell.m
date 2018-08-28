@@ -41,7 +41,7 @@
     NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"longmao2" ofType:@"jpg"];
     self.aImageView.image = [UIImage imageWithContentsOfFile:imagePath];
     
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 1000; i++) {
         NSLog(@"%@",@(i));
 //        [self.contentView class];
     }
