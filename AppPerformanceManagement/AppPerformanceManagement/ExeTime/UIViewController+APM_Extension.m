@@ -9,6 +9,7 @@
 #import "UIViewController+APM_Extension.h"
 #import "NSObject+RuntimeExtension.h"
 #import "APMTimeManager.h"
+#import "NSObject+APM_Extension.h"
 
 @implementation UIViewController (APM_Extension)
 
@@ -17,6 +18,7 @@
     dispatch_once(&onceToken, ^{
         [self switchInstanceSelector:@selector(viewDidLoad) byNewSelector:@selector(apm_viewDidLoad)];
         [self switchInstanceSelector:@selector(viewDidAppear:) byNewSelector:@selector(apm_viewDidAppear:)];
+        [self switchInstanceSelector:@selector(dismissViewControllerAnimated:completion:) byNewSelector:@selector(apm_dismissViewControllerAnimated:completion:)];
     });
 }
 
@@ -29,6 +31,11 @@
 - (void)apm_viewDidAppear:(BOOL)animated{
     [self apm_viewDidAppear:animated];
     APMTimeEnd(self);
+}
+
+- (void)apm_dismissViewControllerAnimated:(BOOL)flag completion:(void (^)(void))completion{
+    [self apm_dismissViewControllerAnimated:flag completion:completion];
+    [self apm_objectReleaseNotifaction];
 }
 
 

@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		14AC7DEE21358A18001519D2 /* KIVLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AC7DEC21358A18001519D2 /* KIVLog.h */; };
 		14AC7DEF21358A18001519D2 /* KIVLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC7DED21358A18001519D2 /* KIVLog.m */; };
+		14AC7DF42136EEDA001519D2 /* Time1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC7DF32136EEDA001519D2 /* Time1ViewController.m */; };
+		14AC7DF72136EFE5001519D2 /* Time2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC7DF62136EFE5001519D2 /* Time2ViewController.m */; };
+		14AC7DFF2136F47B001519D2 /* APMMemoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AC7DFD2136F47B001519D2 /* APMMemoryManager.h */; };
+		14AC7E002136F47B001519D2 /* APMMemoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC7DFE2136F47B001519D2 /* APMMemoryManager.m */; };
+		14AC7E032136F8B5001519D2 /* UINavigationController+APM_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AC7E012136F8B5001519D2 /* UINavigationController+APM_Extension.h */; };
+		14AC7E042136F8B5001519D2 /* UINavigationController+APM_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC7E022136F8B5001519D2 /* UINavigationController+APM_Extension.m */; };
+		14AC7E072136F9FB001519D2 /* NSObject+APM_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AC7E052136F9FB001519D2 /* NSObject+APM_Extension.h */; };
+		14AC7E082136F9FB001519D2 /* NSObject+APM_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC7E062136F9FB001519D2 /* NSObject+APM_Extension.m */; };
+		14AC7E0C2136FF9E001519D2 /* LeakVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC7E0B2136FF9E001519D2 /* LeakVC1.m */; };
 		14FAE8E721343D3B0035A641 /* AppPerformanceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FAE8DD21343D3A0035A641 /* AppPerformanceManagement.framework */; };
 		14FAE8EC21343D3B0035A641 /* AppPerformanceManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE8EB21343D3B0035A641 /* AppPerformanceManagementTests.m */; };
 		14FAE8EE21343D3B0035A641 /* AppPerformanceManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FAE8E021343D3A0035A641 /* AppPerformanceManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,6 +76,18 @@
 		14AC7DEC21358A18001519D2 /* KIVLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIVLog.h; sourceTree = "<group>"; };
 		14AC7DED21358A18001519D2 /* KIVLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIVLog.m; sourceTree = "<group>"; };
 		14AC7DF0213594E6001519D2 /* kivapm_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kivapm_PrefixHeader.pch; sourceTree = "<group>"; };
+		14AC7DF22136EEDA001519D2 /* Time1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Time1ViewController.h; sourceTree = "<group>"; };
+		14AC7DF32136EEDA001519D2 /* Time1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time1ViewController.m; sourceTree = "<group>"; };
+		14AC7DF52136EFE5001519D2 /* Time2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Time2ViewController.h; sourceTree = "<group>"; };
+		14AC7DF62136EFE5001519D2 /* Time2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time2ViewController.m; sourceTree = "<group>"; };
+		14AC7DFD2136F47B001519D2 /* APMMemoryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APMMemoryManager.h; sourceTree = "<group>"; };
+		14AC7DFE2136F47B001519D2 /* APMMemoryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APMMemoryManager.m; sourceTree = "<group>"; };
+		14AC7E012136F8B5001519D2 /* UINavigationController+APM_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+APM_Extension.h"; sourceTree = "<group>"; };
+		14AC7E022136F8B5001519D2 /* UINavigationController+APM_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+APM_Extension.m"; sourceTree = "<group>"; };
+		14AC7E052136F9FB001519D2 /* NSObject+APM_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+APM_Extension.h"; sourceTree = "<group>"; };
+		14AC7E062136F9FB001519D2 /* NSObject+APM_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+APM_Extension.m"; sourceTree = "<group>"; };
+		14AC7E0A2136FF9E001519D2 /* LeakVC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeakVC1.h; sourceTree = "<group>"; };
+		14AC7E0B2136FF9E001519D2 /* LeakVC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeakVC1.m; sourceTree = "<group>"; };
 		14FAE8DD21343D3A0035A641 /* AppPerformanceManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppPerformanceManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FAE8E021343D3A0035A641 /* AppPerformanceManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppPerformanceManagement.h; sourceTree = "<group>"; };
 		14FAE8E121343D3A0035A641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,6 +180,57 @@
 			path = KIVLog;
 			sourceTree = "<group>";
 		};
+		14AC7DF12136EEB9001519D2 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				14AC7DF22136EEDA001519D2 /* Time1ViewController.h */,
+				14AC7DF32136EEDA001519D2 /* Time1ViewController.m */,
+				14AC7DF52136EFE5001519D2 /* Time2ViewController.h */,
+				14AC7DF62136EFE5001519D2 /* Time2ViewController.m */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		14AC7DF92136F3F4001519D2 /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CPU;
+			sourceTree = "<group>";
+		};
+		14AC7DFA2136F409001519D2 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				14AC7DFD2136F47B001519D2 /* APMMemoryManager.h */,
+				14AC7DFE2136F47B001519D2 /* APMMemoryManager.m */,
+				14AC7DFC2136F440001519D2 /* RetainCycles */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		14AC7DFB2136F432001519D2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		14AC7DFC2136F440001519D2 /* RetainCycles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RetainCycles;
+			sourceTree = "<group>";
+		};
+		14AC7E092136FF7C001519D2 /* MemoryLeak */ = {
+			isa = PBXGroup;
+			children = (
+				14AC7E0A2136FF9E001519D2 /* LeakVC1.h */,
+				14AC7E0B2136FF9E001519D2 /* LeakVC1.m */,
+			);
+			path = MemoryLeak;
+			sourceTree = "<group>";
+		};
 		14FAE8D321343D3A0035A641 = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +267,10 @@
 				14FAE95021357D490035A641 /* Runtime Extension */,
 				14FAE934213440350035A641 /* Dashboard */,
 				14FAE92F21343DAF0035A641 /* FPS */,
+				14AC7DF92136F3F4001519D2 /* CPU */,
+				14AC7DFA2136F409001519D2 /* Memory */,
 				14FAE8E121343D3A0035A641 /* Info.plist */,
+				14AC7DFB2136F432001519D2 /* New Group */,
 				14AC7DF0213594E6001519D2 /* kivapm_PrefixHeader.pch */,
 			);
 			path = AppPerformanceManagement;
@@ -217,6 +292,8 @@
 				14FAE8FE21343D7B0035A641 /* AppDelegate.m */,
 				14FAE90021343D7B0035A641 /* ViewController.h */,
 				14FAE90121343D7B0035A641 /* ViewController.m */,
+				14AC7E092136FF7C001519D2 /* MemoryLeak */,
+				14AC7DF12136EEB9001519D2 /* Time */,
 				14FAE94521344B200035A641 /* FPS */,
 				14FAE90321343D7B0035A641 /* Main.storyboard */,
 				14FAE90621343D7D0035A641 /* Assets.xcassets */,
@@ -295,8 +372,12 @@
 		14FAE95121357D5C0035A641 /* ExeTime */ = {
 			isa = PBXGroup;
 			children = (
+				14AC7E052136F9FB001519D2 /* NSObject+APM_Extension.h */,
+				14AC7E062136F9FB001519D2 /* NSObject+APM_Extension.m */,
 				14FAE94C21357D3D0035A641 /* UIViewController+APM_Extension.h */,
 				14FAE94D21357D3D0035A641 /* UIViewController+APM_Extension.m */,
+				14AC7E012136F8B5001519D2 /* UINavigationController+APM_Extension.h */,
+				14AC7E022136F8B5001519D2 /* UINavigationController+APM_Extension.m */,
 				14FAE952213581C10035A641 /* APMTimeManager.h */,
 				14FAE953213581C10035A641 /* APMTimeManager.m */,
 			);
@@ -317,7 +398,10 @@
 				14FAE94E21357D3D0035A641 /* UIViewController+APM_Extension.h in Headers */,
 				14FAE8EE21343D3B0035A641 /* AppPerformanceManagement.h in Headers */,
 				14FAE94A213577DD0035A641 /* NSObject+RuntimeExtension.h in Headers */,
+				14AC7E032136F8B5001519D2 /* UINavigationController+APM_Extension.h in Headers */,
 				14FAE9322134402C0035A641 /* KIVFPSManager.h in Headers */,
+				14AC7E072136F9FB001519D2 /* NSObject+APM_Extension.h in Headers */,
+				14AC7DFF2136F47B001519D2 /* APMMemoryManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,11 +597,14 @@
 			files = (
 				14FAE9382134405E0035A641 /* APMDashboardView.m in Sources */,
 				14FAE9332134402C0035A641 /* KIVFPSManager.m in Sources */,
+				14AC7E042136F8B5001519D2 /* UINavigationController+APM_Extension.m in Sources */,
 				14FAE94B213577DD0035A641 /* NSObject+RuntimeExtension.m in Sources */,
 				14FAE94F21357D3D0035A641 /* UIViewController+APM_Extension.m in Sources */,
 				14FAE93C21344A830035A641 /* APMConfig.m in Sources */,
+				14AC7E082136F9FB001519D2 /* NSObject+APM_Extension.m in Sources */,
 				14FAE955213581C10035A641 /* APMTimeManager.m in Sources */,
 				14AC7DEF21358A18001519D2 /* KIVLog.m in Sources */,
+				14AC7E002136F47B001519D2 /* APMMemoryManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,9 +621,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				14FAE90221343D7B0035A641 /* ViewController.m in Sources */,
+				14AC7DF42136EEDA001519D2 /* Time1ViewController.m in Sources */,
 				14FAE90D21343D7D0035A641 /* main.m in Sources */,
+				14AC7E0C2136FF9E001519D2 /* LeakVC1.m in Sources */,
 				14FAE8FF21343D7B0035A641 /* AppDelegate.m in Sources */,
 				14FAE94321344B170035A641 /* FPSTableViewCell.m in Sources */,
+				14AC7DF72136EFE5001519D2 /* Time2ViewController.m in Sources */,
 				14FAE93F21344AF40035A641 /* FPSTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

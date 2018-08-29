@@ -16,10 +16,10 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, LogLevel) {
-    LogLevelOfDEBUG = 1 >> 0,
-    LogLevelOfINFO  = 1 >> 1,
-    LogLevelOfWARN  = 1 >> 2,
-    LogLevelOfERROR = 1 >> 3,
+    LogLevelOfDEBUG = 1 << 0,
+    LogLevelOfINFO  = 1 << 1,
+    LogLevelOfWARN  = 1 << 2,
+    LogLevelOfERROR = 1 << 3,
 };
 
 #define DLog(str...)  [[KIVLog sharedInstance] showLog:[NSString stringWithFormat:str] withLevel:LogLevelOfDEBUG]

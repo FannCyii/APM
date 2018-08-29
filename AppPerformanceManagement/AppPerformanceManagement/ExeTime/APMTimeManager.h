@@ -20,4 +20,10 @@
 
 
 
+/**
+ 最大可接受延迟时间
+ */
+@property (nonatomic, assign) float maxTolerableTime;
+
+
 @end

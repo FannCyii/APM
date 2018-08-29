@@ -34,6 +34,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedInstance = [[APMTimeManager alloc] init];
+        sharedInstance.maxTolerableTime = 1.5;
     });
     return sharedInstance;
 }
@@ -81,7 +82,14 @@
             timeItem.endTime = endTime;
             self.timeDic[objKey] = timeItem;
         }else{
-            DLog(@"%@:time(s) = %0.4f",timeItem.obj,endTime - timeItem.beginTime);
+            float diffTime = endTime - timeItem.beginTime;
+            if (diffTime > self.maxTolerableTime) {
+                WLog(@"*****加载时间超过了最大阈值*******");
+                WLog(@"%@:time(s) = %0.4f",timeItem.obj,diffTime);
+                WLog(@"******************************");
+            }else{
+                DLog(@"%@:time(s) = %0.4f",timeItem.obj,diffTime);
+            }
             [self.timeDic removeObjectForKey:objKey];
         }
     });
