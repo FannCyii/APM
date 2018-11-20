@@ -7,6 +7,7 @@
 //
 
 #import "LeakVC1.h"
+#import "APMMemoryManager.h"
 
 @interface LeakVC1 ()
 @property (nonatomic, strong) UIViewController *vc;
@@ -18,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.vc = self;
+    
+    [[APMMemoryManager sharedInstance] trackObject:self];
 }
 
 - (void)didReceiveMemoryWarning {

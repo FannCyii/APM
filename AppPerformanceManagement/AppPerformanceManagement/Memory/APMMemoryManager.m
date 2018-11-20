@@ -7,6 +7,7 @@
 //
 
 #import "APMMemoryManager.h"
+#import <objc/runtime.h>
 
 @interface APMMemoryManager()
 
@@ -34,6 +35,17 @@
     ELog(@"[内存泄漏]-%@",leakObject);
 }
 
+- (void)trackObject:(id)obj{
+    const uint8_t *ivarLayout = class_getIvarLayout([obj class]);
+    int i = 0;
+    uint8_t tmpVar = ivarLayout[i];
+    while (tmpVar != 0x00) {
+        printf("x%02x\n",tmpVar);
+        tmpVar = ivarLayout[++i];
+    }
+    
+//    printf("%s",ivarLayout);
+}
 
 
 

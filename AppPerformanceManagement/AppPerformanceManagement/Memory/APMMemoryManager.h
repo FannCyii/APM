@@ -11,5 +11,5 @@
 @interface APMMemoryManager : NSObject
 + (instancetype)sharedInstance;
 - (void)noticeMemoryLeak:(id)leakObject;
-
+- (void)trackObject:(id)obj;
 @end
